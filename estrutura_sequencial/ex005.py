@@ -3,6 +3,6 @@
 valor_em_metros = int(input('Valor em metros: '))
 centimetros = valor_em_metros * 100
 
-print(f'O valor de {valor_em_metros} convertido em centimetros é igual a {centimetros}')
+print(f'O valor de {valor_em_metros}m² convertido em centimetros é igual a {centimetros}cm')
 
 
