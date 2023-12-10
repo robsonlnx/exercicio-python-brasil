@@ -1,4 +1,4 @@
-'''Faça um Programa que peça dois números e imprima o maior deles.'''
+"""Faça um Programa que peça dois números e imprima o maior deles."""
 
 
 primeiro_numero = float(input('Primeiro número: '))
