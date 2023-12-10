@@ -24,4 +24,3 @@ print(f'- IR (11%):.................... R$ {ir:.2f}')
 print(f'- INSS (8%):................... R$ {inss:.2f}')
 print(f'- Sindicato ( 5%):............. R$ {sindicato:.2f}')
 print(f'= Salário Liquido:............. R$ {salario_liquido:.2f}')
-
