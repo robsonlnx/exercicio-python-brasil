@@ -5,5 +5,11 @@ peso_permitido = 50
 excesso = peso_de_peixes - peso_permitido
 multa = excesso * 4
 
-print(f'Você pescou {peso_de_peixes} kg de peixe, e o permitido é {peso_permitido}kg ')
-print(f'O peso foi excedio em {excesso:.1f}kg, e será aplicado uma multa de R$ {multa:.2f}')
+print(f'Você pescou {peso_de_peixes} kg de peixe, dos {peso_permitido}kg permitido ')
+
+if peso_de_peixes <= peso_permitido:
+    print('Peso dentro do limite permitido. ')
+
+else:
+
+    print(f'O peso foi excedio em {excesso:.1f}kg, e será aplicado uma multa de R$ {multa:.2f}')
